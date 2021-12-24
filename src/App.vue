@@ -1,10 +1,39 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div
+    class="h-screen w-screen bg-primary dark:bg-secondary"
+    :class="darkMode ? 'dark' : 'light'"
+  >
+    <Navbar :class="darkMode ? 'dark' : 'light'" @darkMode="toggleDarkMode" />
+    <router-view
+      :class="darkMode ? 'dark' : 'light'"
+      class="bg-primary dark:bg-secondary h-90vh w-full overflow-y-scroll transfor transition-all"
+    />
   </div>
-  <router-view/>
 </template>
+
+<script>
+import Navbar from './components/Navbar.vue';
+export default {
+  components: { Navbar },
+  data() {
+    return {
+      darkMode: false,
+    };
+  },
+  methods: {
+    toggleDarkMode() {
+      if (this.darkMode === true) {
+        this.$store.dispatch('toggleDarkModeFalse');
+        this.darkMode = false;
+      } else if (this.darkMode === false) {
+        this.$store.dispatch('toggleDarkModeTrue');
+        this.darkMode = true;
+      }
+      // this.darkMode = !this.darkMode;
+    },
+  },
+};
+</script>
 
 <style>
 #app {
