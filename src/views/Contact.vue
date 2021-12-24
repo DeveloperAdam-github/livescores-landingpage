@@ -18,6 +18,7 @@
         <form
           class="lg:w-1/2 md:w-2/3 mx-auto"
           name="livescores-contact"
+          action="/"
           method="POST"
           data-netlify="true"
         >
