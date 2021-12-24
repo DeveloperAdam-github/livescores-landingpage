@@ -15,7 +15,12 @@
             hours.
           </p>
         </div>
-        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <form
+          class="lg:w-1/2 md:w-2/3 mx-auto"
+          name="livescores-contact"
+          method="POST"
+          data-netlify="true"
+        >
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2">
               <div class="relative">
@@ -64,6 +69,7 @@
             <div class="p-2 w-full">
               <button
                 class="flex mx-auto text-white bg-purple border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                type="submit"
               >
                 Submit
               </button>
@@ -72,7 +78,7 @@
               class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
             ></div>
           </div>
-        </div>
+        </form>
       </div>
     </section>
     <Footer class="bg-primary dark:bg-secondary" />
