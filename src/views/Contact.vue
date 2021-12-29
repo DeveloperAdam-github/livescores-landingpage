@@ -19,6 +19,7 @@
           class="lg:w-1/2 md:w-2/3 mx-auto"
           name="contact"
           method="post"
+          action="/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           netlify
@@ -36,7 +37,7 @@
                   type="text"
                   id="name"
                   name="name"
-                  class="w-full bg-gray-100 dark:bg-fourth bg-opacity-50 rounded border border-gray-300 focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  class="w-full bg-gray-100 dark:bg-fourth bg-opacity-50 rounded border border-gray-300 focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -51,7 +52,7 @@
                   type="email"
                   id="email"
                   name="email"
-                  class="w-full bg-gray-100 dark:bg-fourth bg-opacity-50 rounded border border-gray-300 focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  class="w-full bg-gray-100 dark:bg-fourth bg-opacity-50 rounded border border-gray-300 focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -65,7 +66,7 @@
                 <textarea
                   id="message"
                   name="message"
-                  class="w-full bg-gray-100 dark:bg-fourth bg-opacity-50 rounded border border-gray-300 focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  class="w-full bg-gray-100 dark:bg-fourth bg-opacity-50 rounded border border-gray-300 focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 dark:text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
             </div>
