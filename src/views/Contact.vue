@@ -17,12 +17,13 @@
         </div>
         <form
           class="lg:w-1/2 md:w-2/3 mx-auto"
-          name="livescores-contact"
-          action="/"
-          method="POST"
+          name="contact"
+          method="post"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           netlify
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2">
               <div class="relative">
