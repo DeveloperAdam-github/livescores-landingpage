@@ -7,7 +7,7 @@
         <p
           class="text-secondary dark:text-primary sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-purple sm:py-2 sm:mt-0 mt-4 font-headline text-xs"
         >
-          © 2021 LiveSc<i class="text-purple far fa-futbol text-xs"></i>res -
+          © 2021 W<i class="text-purple far fa-futbol text-xs"></i>orldie -
           <a
             href="https://www.instagram.com/developeradam/"
             class="text-secondary dark:text-primary ml-1"
@@ -16,6 +16,14 @@
             >@DeveloperAdam</a
           >
         </p>
+        <div class="w-2/3 flex justify-end mt-2 md:mt-0">
+          <router-link class="mr-2 cursor-pointer" :to="{ name: 'Privacy' }"
+            >Privacy Policy</router-link
+          >
+          <router-link class="ml-2 cursor-pointer" :to="{ name: 'Terms' }"
+            >Terms & Conditions</router-link
+          >
+        </div>
         <span
           class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
         >

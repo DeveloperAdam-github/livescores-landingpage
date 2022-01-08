@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import ComingSoon from '../views/ComingSoon.vue';
+import Privacy from '../views/Privacy.vue';
+import Terms from '../views/Terms.vue';
 
 const routes = [
   {
@@ -12,6 +14,16 @@ const routes = [
     path: '/coming-soon',
     name: 'ComingSoon',
     component: ComingSoon,
+  },
+  {
+    path: '/privacy-policy',
+    name: 'Privacy',
+    component: Privacy,
+  },
+  {
+    path: '/terms-conditions',
+    name: 'Terms',
+    component: Terms,
   },
   {
     path: '/contact',

@@ -8,7 +8,7 @@
           class="w-72 2xl:w-full flex px-auto items-center justify-center flex-col text-center m-10 dark:text-primary"
         >
           <h1 class="font-boldHeadline text-2xl text-left">
-            LiveScore & stats for football.
+            Live scores & stats for football.
           </h1>
           <p class="font-headline text-sm dark:text-gray-500 mt-5 text-left">
             Stay up to date with real time scores, stats
@@ -18,7 +18,7 @@
           <div>
             <router-link class="" :to="{ name: 'ComingSoon' }">
               <button
-                class="m-10 flex w-52 text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none items-center text-left hover:bg-indigo-600 rounded text-xs font-headline"
+                class="m-10 flex w-52 text-white bg-purple border-0 py-2 px-4 focus:outline-none items-center text-left hover:bg-indigo-500 rounded text-xs font-headline"
               >
                 <div class="h-full w-1/5">
                   <i class="fab fa-apple text-3xl"></i>
@@ -39,7 +39,7 @@
             <div class="artboard phone-1 artboard-demo bg-light dark:bg-dark">
               <img
                 v-if="this.$store.state.darkMode"
-                class="dark"
+                class="dark h-full w-full"
                 src="../assets/screenshot.png"
                 alt=""
               />

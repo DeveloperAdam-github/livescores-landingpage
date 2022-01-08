@@ -3,7 +3,7 @@
     class="bg-primary dark:bg-secondary text-secondary dark:text-primary h-10vh w-full border-b md:border-0 border-gray-400 flex font-boldHeadline text-base lg:text-xl justify-between px-4 md:px-10 items-center"
   >
     <div>
-      <h1>LiveSc<i class="text-purple far fa-futbol"></i>res</h1>
+      <h1>W<i class="text-purple far fa-futbol"></i>rldie</h1>
     </div>
     <div class="w-1/2 lg:w-1/3 flex justify-between items-center">
       <router-link class="" :to="{ name: 'Home' }">Home</router-link>
