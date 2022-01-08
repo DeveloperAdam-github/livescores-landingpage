@@ -15,21 +15,41 @@
             <span>and upcoming league games</span>
           </p>
 
-          <div>
-            <router-link class="" :to="{ name: 'ComingSoon' }">
+          <div class="flex flex-col">
+            <a
+              class="flex items-start"
+              href="https://apps.apple.com/us/app/worldie/id1603982331"
+              target="_blank"
+            >
               <button
-                class="m-10 flex w-52 text-white bg-purple border-0 py-2 px-4 focus:outline-none items-center text-left hover:bg-indigo-500 rounded text-xs font-headline"
+                class="m-10 flex w-52 text-white bg-purple border-0 py-2 px-4 focus:outline-none items-center text-left hover:bg-indigo-700 rounded text-xs font-headline"
               >
-                <div class="h-full w-1/5">
-                  <i class="fab fa-apple text-3xl"></i>
+                <div class="h-full">
+                  <i class="fab fa-apple text-3xl px-2.5"></i>
                 </div>
                 <div class="flex flex-col w-2/3">
-                  <p>Download on the</p>
+                  <p class="">Download on the</p>
                   <p class="text-lg font-bold">App Store</p>
                 </div>
               </button>
-            </router-link>
+            </a>
           </div>
+
+          <!-- <div>
+            <a
+              href="https://apps.apple.com/us/app/worldie/id1603982331"
+              target="_blank"
+              class="m-10 flex w-52 text-white bg-purple border-0 py-2 px-4 focus:outline-none items-center text-left hover:bg-indigo-500 rounded text-xs font-headline"
+            >
+              <div class="h-full w-1/5">
+                <i class="fab fa-apple text-3xl"></i>
+              </div>
+              <div class="flex flex-col w-2/3">
+                <p>Download on the</p>
+                <p class="text-lg font-bold">App Store</p>
+              </div>
+            </a>
+          </div> -->
         </div>
       </div>
       <div>
@@ -82,7 +102,7 @@ export default {
 </script>
 
 <style scoped>
-button:hover p {
+/* button:hover p {
   display: none;
 }
 
@@ -96,5 +116,5 @@ button:hover:before {
   font-size: 20px;
   text-decoration: underline;
   line-height: 20px;
-}
+} */
 </style>
